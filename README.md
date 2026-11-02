@@ -15,4 +15,4 @@ GitHub Pages serves the root of the `main` branch. Push changes to `main` to pub
 
 ## Responsive layout
 
-Steps use one column below 1200 CSS pixels, two columns from 1200 pixels, and three from 2200 pixels. On phones, multi-stage diagrams stack vertically in reading order. Both languages share the same layout.
+Steps use one column below 1200 CSS pixels, two columns from 1200 pixels, and three from 2200 pixels. On phones, multi-stage diagrams stack vertically in reading order. Both languages share the same layout. A ResizeObserver packs cards vertically with a 20px gap, recalculating after resizing or text reflow. Without JavaScript, cards retain their natural height in the standard grid.
